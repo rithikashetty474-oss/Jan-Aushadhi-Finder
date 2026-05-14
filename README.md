@@ -1,12 +1,12 @@
 # 🏥 Jan-Aushadhi Finder
-### Android App Development using GenAI — Project 71 (Healthcare)
-#### MindMatrix VTU Internship Program 2025
+### Android App Development using GenAI —  (Healthcare)
+#### MindMatrix VTU Internship Program 2026
 
 ---
 
 ## 📱 About the App
 
-**Jan-Aushadhi Finder** is an Android application that helps citizens locate the nearest **Pradhan Mantri Jan Aushadhi Kendra (PMJAK)** stores and find affordable generic alternatives to expensive branded medicines.
+**Jan-Aushadhi Finder** is an Android application that helps citizens locate the nearest **Jan Aushadhi stores**  and find affordable generic alternatives to expensive branded medicines.
 
 Generic medicines at Jan-Aushadhi stores are **50–90% cheaper** than branded ones — but most people don't know where the stores are or what the generic name of their medicine is. This app solves both problems.
 
@@ -183,23 +183,4 @@ App finds:   Paracetamol → Generic of Crocin/Dolo
 
 ---
 
-## 👩‍💻 Developer
-
-**Rithika Shetty**
-MindMatrix VTU Internship Program 2025
-Project Title: 71 — Healthcare
-
----
-
-## 📄 License
-
-This project was developed as part of the MindMatrix VTU Internship Program 2025.
-
----
-
-## 🙏 Acknowledgements
-
-- [MindMatrix](https://mindmatrix.io) — for the internship opportunity and project guidance
-- [Google Generative AI](https://ai.google.dev) — Gemini API
-- [Pradhan Mantri Jan Aushadhi Pariyojana](https://janaushadhi.gov.in) — for the initiative this app supports
-- [Android Developers](https://developer.android.com) — Jetpack Compose documentation
+ Developers](https://developer.android.com) — Jetpack Compose documentation
