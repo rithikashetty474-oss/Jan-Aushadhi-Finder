@@ -173,7 +173,6 @@ App finds:   Paracetamol → Generic of Crocin/Dolo
 
 ## 🔮 Future Enhancements
 
-- [ ] Real-time stock data from PMJAK API
 - [ ] Firebase backend for live updates
 - [ ] Prescription scanner using Gemini Vision
 - [ ] Push notifications for refill reminders
@@ -183,4 +182,4 @@ App finds:   Paracetamol → Generic of Crocin/Dolo
 
 ---
 
- Developers](https://developer.android.com) — Jetpack Compose documentation
+
