@@ -29,7 +29,7 @@ Generic medicines at Jan-Aushadhi stores are **50–90% cheaper** than branded o
 
 | Home Screen | Medicine Search | Nearby Stores |
 |-------------|----------------|----------------|
-| <img src="Home.jpeg" width="250"> | <img src="Search.jpeg" width="250"> | <img src="Filter%20stores.jpeg" width="250"> |
+| <img src="Home.jpeg" width="250"> | <img src="Search.jpeg" width="250"> | <img src="Filter%20stores.png" width="250"> |
 
 | Store Filter | Refill Reminders |
 |--------------|------------------|
