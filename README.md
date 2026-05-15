@@ -1,12 +1,12 @@
 # 🏥 Jan-Aushadhi Finder
-### Android App Development using GenAI —  (Healthcare)
+### Android App Development using GenAI — (Healthcare)
 #### MindMatrix VTU Internship Program 2026
 
 ---
 
 ## 📱 About the App
 
-**Jan-Aushadhi Finder** is an Android application that helps citizens locate the nearest **Jan Aushadhi stores**  and find affordable generic alternatives to expensive branded medicines.
+**Jan-Aushadhi Finder** is an Android application that helps citizens locate the nearest **Jan Aushadhi stores** and find affordable generic alternatives to expensive branded medicines.
 
 Generic medicines at Jan-Aushadhi stores are **50–90% cheaper** than branded ones — but most people don't know where the stores are or what the generic name of their medicine is. This app solves both problems.
 
@@ -25,18 +25,8 @@ Generic medicines at Jan-Aushadhi stores are **50–90% cheaper** than branded o
 
 ---
 
-## 📸 Screens
-
-```
-Home Screen        → Quick actions + Upcoming refill reminders
-Search Screen      → Medicine search + Price comparison
-Store Locator      → 190+ stores with GPS, city & distance filters
-Stock Checker      → Medicine availability across stores
-Reminders Screen   → Monthly refill reminder management
-```
 ## 📱 App Screenshots
 
-```
 ### 🏠 Home Screen
 ![Home](Home.jpeg)
 
@@ -44,13 +34,14 @@ Reminders Screen   → Monthly refill reminder management
 ![Search](Search.jpeg)
 
 ### 🏥 Nearby Stores
-![Stores](Filter stores.jpeg)
+![Stores](Filter%20stores.jpeg)
 
 ### 🎯 Store Filter
 ![Filter](Filter.jpeg)
 
 ### ⏰ Refill Reminders
-![Reminder](Refill Reminders.jpeg)
+![Reminder](Refill%20Reminders.jpeg)
+
 ---
 
 ## 🛠️ Tech Stack
@@ -103,38 +94,45 @@ com.healthcare.janaushadhi/
 └── MainActivity.kt                # Main entry point of the application
 ```
 
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Android Studio Hedgehog or later
 - JDK 17
 - Android device or emulator (API 24+)
-- Google Gemini API key from [aistudio.google.com](https://aistudio.google.com)
+- Google Gemini API key from aistudio.google.com
 
 ### Setup
 
 1. **Clone the repository**
+
 ```bash
 git clone https://github.com/YourUsername/JanAushadhiFinder.git
 cd JanAushadhiFinder
 ```
 
 2. **Open in Android Studio**
-```
+
+```text
 File → Open → Select the project folder
 ```
 
 3. **Add your Gemini API key**
 
 In your `local.properties` file:
-```
+
+```properties
 GEMINI_API_KEY=your_api_key_here
 ```
 
 Or add it directly in your code where the Gemini client is initialized.
 
 4. **Build and Run**
-```
+
+```text
 Click ▶ Run in Android Studio
 ```
 
@@ -165,9 +163,11 @@ When you search a medicine name, two layers run:
 1. **Local Fuzzy Search** — instant results from the 500+ medicine database
 2. **Gemini AI** — handles severe typos, regional names, and unknown brands
 
-Example:
-```
+### Example
+
+```text
 User types:  "paracetmol"
+
 App finds:   Paracetamol → Generic of Crocin/Dolo
              Branded: ₹30  |  Generic: ₹8  |  Save: ₹22
 ```
@@ -207,5 +207,3 @@ App finds:   Paracetamol → Generic of Crocin/Dolo
 - [ ] Barcode scanner for medicine identification
 
 ---
-
-
