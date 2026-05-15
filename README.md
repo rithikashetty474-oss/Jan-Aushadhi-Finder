@@ -52,12 +52,14 @@ Reminders Screen   → Monthly refill reminder management
 
 ## 🗂️ Project Structure
 
+```text
 com.healthcare.janaushadhi/
 ├── data/
 │   ├── models/
 │   │   ├── Medicine.kt            # Medicine data model
 │   │   ├── Store.kt               # Store information model
 │   │   └── Reminder.kt            # Reminder data model
+│   │
 │   ├── repository/
 │   │   ├── StoreRepository.kt     # Store and stock management
 │   │   ├── ReminderRepository.kt  # Reminder handling logic
@@ -83,6 +85,7 @@ com.healthcare.janaushadhi/
 │   └── FuzzySearch.kt             # Advanced medicine search utility
 │
 └── MainActivity.kt                # Main entry point of the application
+```
 
 ## 🚀 Getting Started
 
