@@ -34,7 +34,23 @@ Store Locator      → 190+ stores with GPS, city & distance filters
 Stock Checker      → Medicine availability across stores
 Reminders Screen   → Monthly refill reminder management
 ```
+## 📱 App Screenshots
 
+```
+### 🏠 Home Screen
+![Home](Home.jpeg)
+
+### 🔍 Medicine Search
+![Search](Search.jpeg)
+
+### 🏥 Nearby Stores
+![Stores](Filter stores.jpeg)
+
+### 🎯 Store Filter
+![Filter](Filter.jpeg)
+
+### ⏰ Refill Reminders
+![Reminder](Refill Reminders.jpeg)
 ---
 
 ## 🛠️ Tech Stack
