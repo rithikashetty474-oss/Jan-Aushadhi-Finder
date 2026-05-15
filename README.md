@@ -52,30 +52,37 @@ Reminders Screen   → Monthly refill reminder management
 
 ## 🗂️ Project Structure
 
-```
 com.healthcare.janaushadhi/
 ├── data/
 │   ├── models/
-│   │   ├── Medicine.kt          # Medicine data class
-│   │   ├── Store.kt             # Store data class
-│   │   └── Reminder.kt         # Reminder data class
+│   │   ├── Medicine.kt            # Medicine data model
+│   │   ├── Store.kt               # Store information model
+│   │   └── Reminder.kt            # Reminder data model
 │   ├── repository/
-│   │   ├── StoreRepository.kt  # 190+ stores + stock data
-│   │   └── ReminderRepository.kt
-│   └── SampleData.kt           # 500+ medicine database
+│   │   ├── StoreRepository.kt     # Store and stock management
+│   │   ├── ReminderRepository.kt  # Reminder handling logic
+│   │   └── SampleData.kt          # Medicine dataset
+│
 ├── ui/
-│   ├── home/HomeScreen.kt
-│   ├── search/SearchScreen.kt
-│   ├── maps/StoresScreen.kt
-│   ├── stock/StockCheckerScreen.kt
-│   ├── reminders/RemindersScreen.kt
-│   └── theme/AppColors.kt
+│   ├── home/
+│   │   └── HomeScreen.kt
+│   ├── search/
+│   │   └── SearchScreen.kt
+│   ├── maps/
+│   │   └── StoresScreen.kt
+│   ├── stock/
+│   │   └── StockCheckerScreen.kt
+│   ├── reminders/
+│   │   └── RemindersScreen.kt
+│   └── theme/
+│       ├── Color.kt
+│       ├── Theme.kt
+│       └── Type.kt
+│
 ├── utils/
-│   └── FuzzySearch.kt
-└── MainActivity.kt
-```
-
----
+│   └── FuzzySearch.kt             # Advanced medicine search utility
+│
+└── MainActivity.kt                # Main entry point of the application
 
 ## 🚀 Getting Started
 
